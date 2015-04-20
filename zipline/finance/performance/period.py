@@ -79,7 +79,7 @@ from collections import (
 )
 
 from zipline.finance.trading import with_environment
-from zipline.assets.assets import EQUITY
+from zipline.assets import EQUITY
 
 try:
     # optional cython based OrderedDict
